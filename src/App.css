@@ -1,0 +1,32 @@
+
+.App{
+  margin-top: 100px;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  background: white;
+  border-radius: 7px;
+  box-shadow: 3px 3px 20px gray;
+  padding:30px 10px;
+}
+a{
+  padding: 5px 10px;
+  background: blue;
+  text-decoration: none;
+  color: white;
+  border-radius: 4px;
+}
+
+label{
+  font-size: 20px;
+  text-transform: capitalize;
+  color: gray;
+}
+
+
+@media screen and (max-width:500px) {
+  .App{
+    width: 90%;
+  }
+}
